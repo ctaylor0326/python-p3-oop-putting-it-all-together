@@ -14,8 +14,8 @@ class TestBook:
 
     def test_has_title(self):
         '''has the title passed into __init__.'''
-        book = Book("And Then There Were None")
-        assert(book.title == "And Then There Were None")
+        book = Book("And Then There Were None 2")
+        assert(book.title == "And Then There Were None 2")
 
     def test_has_author_name(self):
         '''can be assigned an author name.'''
